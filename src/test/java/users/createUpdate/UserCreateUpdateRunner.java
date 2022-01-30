@@ -2,7 +2,7 @@ package users.createUpdate;
 
 import com.intuit.karate.junit5.Karate;
 
-public class UserRunner {
+public class UserCreateUpdateRunner {
 
     @Karate.Test
     Karate testCreateUserTest() {
