@@ -8,8 +8,8 @@ public class userRunner {
     Karate testCreateUserTest() {
         return new Karate()
                 .feature("listUsers").relativeTo(getClass())
-                .feature("singleUser").relativeTo(getClass())
-                .feature("userFail").relativeTo(getClass());
+                .feature("singleUser").relativeTo(getClass());
+                //.feature("usersFail").relativeTo(getClass());
     }
 
 }

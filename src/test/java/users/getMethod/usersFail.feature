@@ -14,4 +14,4 @@ Feature: PUT PAI Request test fail
     And  request requestBody1
     When method PUT
     # Status attendu 200 mais on veut un test fail pour les rapports
-    Then status 400
+    Then status 200
